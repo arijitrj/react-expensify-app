@@ -1,0 +1,11 @@
+{
+    "presets": [ // seting up preset for babel core , because we don not need to run babel through cmd prmot we are running it through the web pack 
+        
+        "env",
+        "react"
+    ],
+    "plugins": [
+        "transform-class-properties",
+        "transform-object-rest-spread"
+    ]
+}
